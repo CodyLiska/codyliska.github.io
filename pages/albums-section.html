@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography Albums</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .album-container {
+      background-color: #89a8a8;
+      padding: 20px;
+    }
+    .album-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    .album-card img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s;
+    }
+    .album-card:hover img {
+      transform: scale(1.05);
+    }
+    .album-card .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: white;
+      padding: 15px;
+    }
+    .album-card .overlay h5 {
+      margin: 0;
+    }
+    .album-card .heart-icon {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 1.5rem;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="text-white">ALBUMS</h1>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="album-card">
+        <img src="https://via.placeholder.com/400x300" alt="Natural site">
+        <div class="overlay">
+          <span class="heart-icon">&#9829;</span>
+          <h5>Natural site</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="album-card">
+        <img src="https://via.placeholder.com/400x300" alt="Vacation special photography">
+        <div class="overlay">
+          <span class="heart-icon">&#9829;</span>
+          <h5>Vacation special photography</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="album-card">
+        <img src="https://via.placeholder.com/400x300" alt="Product photography">
+        <div class="overlay">
+          <span class="heart-icon">&#9829;</span>
+          <h5>Product photography</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="album-card">
+        <img src="https://via.placeholder.com/400x500" alt="Historical place shots">
+        <div class="overlay">
+          <span class="heart-icon">&#9829;</span>
+          <h5>Historical place shots</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="album-card">
+        <img src="https://via.placeholder.com/400x300" alt="Lorem ipsum dolor">
+        <div class="overlay">
+          <span class="heart-icon">&#9829;</span>
+          <h5>Lorem ipsum dolor</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="album-card">
+        <img src="https://via.placeholder.com/400x300" alt="Lorem ipsum dolor">
+        <div class="overlay">
+          <span class="heart-icon">&#9829;</span>
+          <h5>Lorem ipsum dolor</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="album-card">
+        <img src="https://via.placeholder.com/400x300" alt="Portraits">
+        <div class="overlay">
+          <span class="heart-icon">&#9829;</span>
+          <h5>Portraits</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="album-card">
+        <img src="https://via.placeholder.com/400x300" alt="Wedding photography">
+        <div class="overlay">
+          <span class="heart-icon">&#9829;</span>
+          <h5>Wedding photography</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
