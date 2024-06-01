@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- TODO: PUT INTO A PARTIAL TO USE ON OTHER PAGES -->
+
+    <div class="bg">
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="albums.html">Albums</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> -->
+
+      <nav class="navbar navbar-expand-md fixed-top maine-menu">
+        <div class="container">
+          <button
+            class="navbar-toggler ml-auto"
+            data-target="#my-nav"
+            onclick="myFunction(this)"
+            data-toggle="collapse"
+          >
+            <span class="bar1"></span> <span class="bar2"></span>
+            <span class="bar3"></span>
+          </button>
+          <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="/albums.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="/contact.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Contact</a
+                >
+              </li>
+
+              <!-- <li class="nav-item"> <a class="nav-link" href="#activity" tabindex="-1" aria-disabled="true">Activity</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#about" tabindex="-1" aria-disabled="true">About</a></li>
+                <li class="nav-item"> <a class="nav-link" href="blog.html" tabindex="-1" aria-disabled="true">Blog</a></li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="text-center">
+        <h1>Welcome to My Photography Portfolio</h1>
+        <p>Explore my world through the lens</p>
+        <a href="albums.html" class="btn btn-primary">View Albums</a>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

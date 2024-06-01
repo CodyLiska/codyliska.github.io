@@ -1,0 +1,22 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  background-image: url("/assets/img/banner-img.JPG");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.nav-link {
+  color: white !important;
+}
