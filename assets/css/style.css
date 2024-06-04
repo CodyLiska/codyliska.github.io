@@ -1,17 +1,19 @@
 body,
 html {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #f8f9fa;
   height: 100%;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
-.bg {
-  background-image: url("/assets/img/banner-img.JPG");
+.hero-img {
+  background-image: url("/assets/img/banner-img.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }
 .text-center {
   position: absolute;
@@ -20,8 +22,18 @@ html {
   transform: translate(-50%, -50%);
   color: white;
 }
-.nav-link {
-  color: white !important;
+.gallery-img {
+  background-image: url("/assets/img/gallery-img.jpg");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-img {
+  background-image: url("/assets/img/banner-img.jpg");
+}
+.form-container {
+  position: relative;
 }
 .portfolio-container,
 .gallery-container {
@@ -74,4 +86,7 @@ html {
 .gallery-caption p {
   margin: 0;
   font-size: 0.875rem;
+}
+.nav-link {
+  color: white !important;
 }
