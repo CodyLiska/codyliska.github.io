@@ -1,7 +1,10 @@
 body,
 html {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 .bg {
   background-image: url("/assets/img/banner-img.JPG");
@@ -19,4 +22,56 @@ html {
 }
 .nav-link {
   color: white !important;
+}
+.portfolio-container,
+.gallery-container {
+  padding: 2rem;
+}
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+}
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.portfolio-item img,
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  display: block;
+  border-radius: 25px;
+}
+.portfolio-item:hover img,
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+.portfolio-caption,
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  text-align: center;
+}
+.portfolio-item:hover .portfolio-caption,
+.gallery-item:hover .gallery-caption {
+  opacity: 1;
+}
+.portfolio-caption h5,
+.gallery-caption h5 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+.portfolio-caption p,
+.gallery-caption p {
+  margin: 0;
+  font-size: 0.875rem;
 }
