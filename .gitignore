@@ -1,0 +1,29 @@
+# Jekyll / site build
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Node / build
+node_modules/
+dist/
+public/
+build/
+
+# Tailwind / generated CSS maps
+assets/css/*.css.map
+*.css.map
+
+# Logs
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# System / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+sync.ffs_db
