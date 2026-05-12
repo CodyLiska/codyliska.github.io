@@ -1,4 +1,4 @@
-# CodyLiska.github.io
+# CodyLiska Photography Portfolio
 
 This repository hosts the source for **Cody Liska’s personal website / blog**, published via GitHub Pages.
 
@@ -8,7 +8,7 @@ This repository hosts the source for **Cody Liska’s personal website / blog**,
 
 ## Table of Contents
 
-- [CodyLiska.github.io](#codyliskagithubio)
+- [CodyLiska Photography Portfolio](#codyliska-photography-portfolio)
   - [Live](#live)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
