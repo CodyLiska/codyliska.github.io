@@ -2,9 +2,14 @@
 
 This repository hosts the source for **Cody Liska’s personal website / blog**, published via GitHub Pages.
 
+## Live
+
+- [https://portfolio.codyliska.com](https://portfolio.codyliska.com)
+
 ## Table of Contents
 
 - [CodyLiska.github.io](#codyliskagithubio)
+  - [Live](#live)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Technologies / Stack](#technologies--stack)
@@ -57,7 +62,6 @@ This site provides a flexible platform to host blog posts, project pages, about 
    ```
 
 2. **Install dependencies**
-
    - For Jekyll setups: `bundle install`
    - For Tailwind / Node: `npm install`
 
